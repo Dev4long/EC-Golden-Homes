@@ -110,7 +110,6 @@ export const translations = {
       infoTitle: 'Contact Information',
       phone: 'Phone',
       email: 'Email',
-      whatsapp: 'WhatsApp',
       address: 'Location',
       addressValue: 'Real Estate Investment · United States',
       hours: 'Response Time',
@@ -235,7 +234,6 @@ export const translations = {
       infoTitle: 'Información de Contacto',
       phone: 'Teléfono',
       email: 'Correo',
-      whatsapp: 'WhatsApp',
       address: 'Ubicación',
       addressValue: 'Inversión Inmobiliaria · Estados Unidos',
       hours: 'Tiempo de Respuesta',
@@ -255,8 +253,6 @@ export const translations = {
 export const siteConfig = {
   phone: '+1 (347) 708-1967',
   phoneHref: 'tel:+13477081967',
-  whatsapp: '+1 (347) 708-1967',
-  whatsappHref: 'https://wa.me/13477081967',
   email: 'e.c.goldenhomes@gmail.com',
   // Get a free access key at https://web3forms.com (no account required, just
   // enter the email that should receive submissions). It only grants

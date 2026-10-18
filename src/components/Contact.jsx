@@ -75,10 +75,6 @@ export default function Contact() {
                 <a href={siteConfig.phoneHref}>{siteConfig.phone}</a>
               </li>
               <li>
-                <span className="contact-details-label">{t.contact.whatsapp}</span>
-                <a href={siteConfig.whatsappHref} target="_blank" rel="noreferrer">{siteConfig.whatsapp}</a>
-              </li>
-              <li>
                 <span className="contact-details-label">{t.contact.email}</span>
                 <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
               </li>
