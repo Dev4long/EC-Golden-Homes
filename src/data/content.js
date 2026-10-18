@@ -1,0 +1,206 @@
+export const translations = {
+  en: {
+    nav: {
+      home: 'Home',
+      about: 'About',
+      strategies: 'Investment Strategies',
+      fixFlip: 'Fix & Flip',
+      buyHold: 'Buy & Hold',
+      firstInvestment: 'Our First Investment',
+      contact: 'Contact',
+      cta: 'Get in Touch',
+      langLabel: 'ES',
+      themeLight: 'Light mode',
+      themeDark: 'Dark mode',
+    },
+    hero: {
+      eyebrow: 'Real Estate Investment Company',
+      title: 'Building Value',
+      titleHighlight: 'Through Real Estate.',
+      subtitle:
+        'EC Golden Homes focuses on identifying residential properties with investment potential, acquiring properties strategically, coordinating renovations, and building long-term value through resale or rental investments.',
+      ctaPrimary: 'Our Strategies',
+      ctaSecondary: 'Contact Us',
+      scrollHint: 'Scroll to discover more',
+    },
+    about: {
+      eyebrow: 'About Us',
+      title: 'A disciplined approach to real estate investment',
+      paragraphs: [
+        'EC Golden Homes is a real estate investment company focused on identifying residential properties with strong investment potential. We take a strategic approach to acquisition, renovation, and long-term value creation — whether through resale or rental income.',
+        'We believe in disciplined execution: evaluating each property carefully, coordinating renovations with trusted partners, and making decisions built for long-term value rather than short-term speculation.',
+      ],
+      imageAlt: 'EC Golden Homes team on site at a property under renovation',
+    },
+    strategies: {
+      eyebrow: 'Our Investment Strategies',
+      title: 'How we invest',
+      subtitle: 'Two disciplined strategies, one commitment: building long-term value through real estate.',
+      items: [
+        {
+          id: 'fix-flip',
+          title: 'Fix & Flip',
+          tagline: 'Renovate & Resell',
+          description: 'Acquiring properties with renovation potential, improving their condition, and reselling them.',
+          bullets: ['Property evaluation & acquisition', 'Renovation coordination', 'Market-ready improvements', 'Strategic resale'],
+        },
+        {
+          id: 'buy-hold',
+          title: 'Buy & Hold',
+          tagline: 'Renovate & Retain',
+          description: 'Acquiring properties to renovate, retain, and rent for potential long-term income.',
+          bullets: ['Property acquisition & renovation', 'Long-term retention', 'Rental income potential', 'Portfolio growth'],
+        },
+      ],
+    },
+    firstInvestment: {
+      eyebrow: 'Our First Investment',
+      title: 'Laying the Foundation',
+      description:
+        'We are preparing to acquire our first investment property and establish a foundation for long-term real estate investment.',
+      cta: 'Get in Touch',
+    },
+    contact: {
+      eyebrow: 'Contact',
+      title: 'Let’s talk about your next step',
+      subtitle: 'Interested in partnering with us or learning more about our investment approach? Reach out — we’d love to hear from you.',
+      form: {
+        name: 'Full name',
+        email: 'Email address',
+        phone: 'Phone number',
+        service: 'I’m interested in',
+        serviceOptions: ['Fix & Flip', 'Buy & Hold', 'Partnership', 'Other'],
+        message: 'Tell us how we can help',
+        submit: 'Send Message',
+        sending: 'Sending...',
+        success: 'Thank you! We’ve received your message and will reach out soon.',
+        error: 'Something went wrong. Please try again or reach us directly by phone or email.',
+        captchaHint: 'Complete the security verification to send your message.',
+      },
+      infoTitle: 'Contact Information',
+      phone: 'Phone',
+      email: 'Email',
+      whatsapp: 'WhatsApp',
+      address: 'Location',
+      addressValue: 'Real Estate Investment · United States',
+      hours: 'Response Time',
+      hoursValue: 'We aim to respond within 1 business day',
+    },
+    footer: {
+      tagline: 'Building Value Through Real Estate.',
+      quickLinks: 'Quick Links',
+      ourStrategies: 'Investment Strategies',
+      contactUs: 'Contact',
+      rights: 'All rights reserved.',
+    },
+  },
+  es: {
+    nav: {
+      home: 'Inicio',
+      about: 'Nosotros',
+      strategies: 'Estrategias de Inversión',
+      fixFlip: 'Fix & Flip',
+      buyHold: 'Buy & Hold',
+      firstInvestment: 'Nuestra Primera Inversión',
+      contact: 'Contacto',
+      cta: 'Contáctanos',
+      langLabel: 'EN',
+      themeLight: 'Modo claro',
+      themeDark: 'Modo oscuro',
+    },
+    hero: {
+      eyebrow: 'Empresa de Inversión Inmobiliaria',
+      title: 'Construyendo Valor',
+      titleHighlight: 'A Través de Bienes Raíces.',
+      subtitle:
+        'EC Golden Homes se enfoca en identificar propiedades residenciales con potencial de inversión, adquirirlas estratégicamente, coordinar renovaciones y construir valor a largo plazo mediante reventa o inversión en rentas.',
+      ctaPrimary: 'Nuestras Estrategias',
+      ctaSecondary: 'Contáctanos',
+      scrollHint: 'Desliza para descubrir más',
+    },
+    about: {
+      eyebrow: 'Sobre Nosotros',
+      title: 'Un enfoque disciplinado para la inversión inmobiliaria',
+      paragraphs: [
+        'EC Golden Homes es una empresa de inversión inmobiliaria enfocada en identificar propiedades residenciales con un fuerte potencial de inversión. Tomamos un enfoque estratégico para la adquisición, renovación y creación de valor a largo plazo, ya sea mediante reventa o ingresos por renta.',
+        'Creemos en la ejecución disciplinada: evaluar cada propiedad cuidadosamente, coordinar renovaciones con socios de confianza, y tomar decisiones pensadas para el valor a largo plazo y no para la especulación a corto plazo.',
+      ],
+      imageAlt: 'Equipo de EC Golden Homes en una propiedad en renovación',
+    },
+    strategies: {
+      eyebrow: 'Nuestras Estrategias de Inversión',
+      title: '¿Cómo invertimos?',
+      subtitle: 'Dos estrategias disciplinadas, un mismo compromiso: construir valor a largo plazo a través de bienes raíces.',
+      items: [
+        {
+          id: 'fix-flip',
+          title: 'Fix & Flip',
+          tagline: 'Renovar y Revender',
+          description: 'Adquirir propiedades con potencial de renovación, mejorar su condición y revenderlas.',
+          bullets: ['Evaluación y adquisición de propiedades', 'Coordinación de renovaciones', 'Mejoras listas para el mercado', 'Reventa estratégica'],
+        },
+        {
+          id: 'buy-hold',
+          title: 'Buy & Hold',
+          tagline: 'Renovar y Retener',
+          description: 'Adquirir propiedades para renovarlas, retenerlas y rentarlas en busca de ingresos a largo plazo.',
+          bullets: ['Adquisición y renovación de propiedades', 'Retención a largo plazo', 'Potencial de ingresos por renta', 'Crecimiento del portafolio'],
+        },
+      ],
+    },
+    firstInvestment: {
+      eyebrow: 'Nuestra Primera Inversión',
+      title: 'Construyendo las Bases',
+      description:
+        'Nos estamos preparando para adquirir nuestra primera propiedad de inversión y establecer las bases para una inversión inmobiliaria a largo plazo.',
+      cta: 'Contáctanos',
+    },
+    contact: {
+      eyebrow: 'Contacto',
+      title: 'Hablemos de tu próximo paso',
+      subtitle: '¿Interesado en asociarte con nosotros o conocer más sobre nuestro enfoque de inversión? Escríbenos, nos encantaría saber de ti.',
+      form: {
+        name: 'Nombre completo',
+        email: 'Correo electrónico',
+        phone: 'Teléfono',
+        service: 'Me interesa',
+        serviceOptions: ['Fix & Flip', 'Buy & Hold', 'Sociedad / Partnership', 'Otro'],
+        message: 'Cuéntanos en qué podemos ayudarte',
+        submit: 'Enviar Mensaje',
+        sending: 'Enviando...',
+        success: '¡Gracias! Hemos recibido tu mensaje y te contactaremos pronto.',
+        error: 'Algo salió mal. Intenta de nuevo o contáctanos directamente por teléfono o correo.',
+        captchaHint: 'Completa la verificación de seguridad para poder enviar el mensaje.',
+      },
+      infoTitle: 'Información de Contacto',
+      phone: 'Teléfono',
+      email: 'Correo',
+      whatsapp: 'WhatsApp',
+      address: 'Ubicación',
+      addressValue: 'Inversión Inmobiliaria · Estados Unidos',
+      hours: 'Tiempo de Respuesta',
+      hoursValue: 'Respondemos dentro de 1 día hábil',
+    },
+    footer: {
+      tagline: 'Construyendo Valor a Través de Bienes Raíces.',
+      quickLinks: 'Enlaces Rápidos',
+      ourStrategies: 'Estrategias de Inversión',
+      contactUs: 'Contacto',
+      rights: 'Todos los derechos reservados.',
+    },
+  },
+}
+
+// Update these with the client's real contact details before publishing.
+export const siteConfig = {
+  phone: '+1 (347) 734-2422',
+  phoneHref: 'tel:+13477342422',
+  whatsapp: '+1 (347) 734-2422',
+  whatsappHref: 'https://wa.me/13477342422',
+  email: 'e.c.goldenhomes@gmail.com',
+  // Get a free access key at https://web3forms.com (no account required, just
+  // enter the email that should receive submissions). It only grants
+  // "submit a form to this inbox" — it cannot read or expose any data — so
+  // it's safe to ship in client-side code.
+  web3formsAccessKey: '90b27a63-b5ae-4ec8-92ba-e923a1df3aa6',
+}
