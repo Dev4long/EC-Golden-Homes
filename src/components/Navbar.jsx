@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react'
 import { useLanguage } from '../context/LanguageContext.jsx'
 import { useTheme } from '../context/ThemeContext.jsx'
-import logoMark from '../assets/images/logo-mark.png'
+import logoFull from '../assets/images/logo-full.png'
 
 const NAV_LINKS = [
   { id: 'home', key: 'home' },
   { id: 'about', key: 'about' },
   { id: 'fix-flip', key: 'fixFlip' },
   { id: 'buy-hold', key: 'buyHold' },
+  { id: 'sell-property', key: 'sellProperty' },
+  { id: 'submit-property', key: 'submitProperty' },
   { id: 'first-investment', key: 'firstInvestment' },
   { id: 'contact', key: 'contact' },
 ]
@@ -60,10 +62,7 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
       <div className="navbar-inner">
         <a href="#home" className="navbar-brand" onClick={handleNavClick('home')}>
-          <span className="navbar-brand-mark">
-            <img src={logoMark} alt="EC Golden Homes" />
-          </span>
-          <span className="navbar-brand-text">EC Golden Homes</span>
+          <img src={logoFull} alt="EC Golden Homes" className="navbar-logo-full" />
         </a>
 
         <nav className="navbar-links" aria-label="Primary">

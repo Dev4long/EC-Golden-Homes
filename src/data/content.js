@@ -6,7 +6,9 @@ export const translations = {
       strategies: 'Investment Strategies',
       fixFlip: 'Fix & Flip',
       buyHold: 'Buy & Hold',
-      firstInvestment: 'Our First Investment',
+      firstInvestment: 'First Investment',
+      sellProperty: 'Sell Property',
+      submitProperty: 'Submit Property',
       contact: 'Contact',
       cta: 'Get in Touch',
       langLabel: 'ES',
@@ -53,6 +55,34 @@ export const translations = {
         },
       ],
     },
+    sellProperty: {
+      eyebrow: 'For Property Owners',
+      title: 'Sell Your Property, Fast and Hassle-Free',
+      description:
+        'Thinking about selling? Skip the repairs, the showings, and the uncertainty. EC Golden Homes buys properties directly — in any condition — so you can move forward on your timeline, without the stress of a traditional sale.',
+      bullets: [
+        'No repairs or renovations needed',
+        'No agent commissions or hidden fees',
+        'Flexible closing timeline',
+        'A straightforward, fair cash offer',
+      ],
+      cta: 'Get a Cash Offer',
+      imageAlt: 'Homeowner meeting with an EC Golden Homes representative',
+    },
+    submitProperty: {
+      eyebrow: 'For Agents, Wholesalers & Property Scouts',
+      title: 'Know a Property? Bring It to Us.',
+      description:
+        'We’re always looking for our next investment opportunity. If you’ve come across a property with potential — on or off market — we’d love to take a look. Submit the details and let’s see if it’s a fit for our Fix & Flip or Buy & Hold strategy.',
+      bullets: [
+        'Off-market & on-market properties welcome',
+        'Quick response on every submission',
+        'Straightforward, professional process',
+        'Potential ongoing partnership for future deals',
+      ],
+      cta: 'Submit a Property',
+      imageAlt: 'EC Golden Homes team evaluating a property on site',
+    },
     firstInvestment: {
       eyebrow: 'Our First Investment',
       title: 'Laying the Foundation',
@@ -69,7 +99,7 @@ export const translations = {
         email: 'Email address',
         phone: 'Phone number',
         service: 'I’m interested in',
-        serviceOptions: ['Fix & Flip', 'Buy & Hold', 'Partnership', 'Other'],
+        serviceOptions: ['Selling a Property', 'Submitting a Property', 'Fix & Flip', 'Buy & Hold', 'Other'],
         message: 'Tell us how we can help',
         submit: 'Send Message',
         sending: 'Sending...',
@@ -101,7 +131,9 @@ export const translations = {
       strategies: 'Estrategias de Inversión',
       fixFlip: 'Fix & Flip',
       buyHold: 'Buy & Hold',
-      firstInvestment: 'Nuestra Primera Inversión',
+      firstInvestment: 'Primera Inversión',
+      sellProperty: 'Vender Propiedad',
+      submitProperty: 'Enviar Propiedad',
       contact: 'Contacto',
       cta: 'Contáctanos',
       langLabel: 'EN',
@@ -148,6 +180,34 @@ export const translations = {
         },
       ],
     },
+    sellProperty: {
+      eyebrow: 'Para Dueños de Propiedades',
+      title: 'Vende tu Propiedad, Rápido y Sin Complicaciones',
+      description:
+        '¿Estás pensando en vender? Evita las reparaciones, las visitas y la incertidumbre. EC Golden Homes compra propiedades directamente, en cualquier condición, para que puedas avanzar en tus propios tiempos, sin el estrés de una venta tradicional.',
+      bullets: [
+        'No se necesitan reparaciones ni renovaciones',
+        'Sin comisiones de agentes ni cargos ocultos',
+        'Fecha de cierre flexible',
+        'Una oferta en efectivo justa y directa',
+      ],
+      cta: 'Solicitar una Oferta',
+      imageAlt: 'Propietario reunido con un representante de EC Golden Homes',
+    },
+    submitProperty: {
+      eyebrow: 'Para Agentes, Wholesalers y Buscadores de Propiedades',
+      title: '¿Conoces una Propiedad? Compártela con Nosotros.',
+      description:
+        'Siempre estamos buscando nuestra próxima oportunidad de inversión. Si has encontrado una propiedad con potencial, dentro o fuera del mercado, nos encantaría conocerla. Envía los detalles y veamos si encaja con nuestra estrategia de Fix & Flip o Buy & Hold.',
+      bullets: [
+        'Propiedades dentro y fuera del mercado son bienvenidas',
+        'Respuesta rápida a cada propuesta',
+        'Proceso profesional y directo',
+        'Posible asociación continua para futuros negocios',
+      ],
+      cta: 'Enviar una Propiedad',
+      imageAlt: 'Equipo de EC Golden Homes evaluando una propiedad en sitio',
+    },
     firstInvestment: {
       eyebrow: 'Nuestra Primera Inversión',
       title: 'Construyendo las Bases',
@@ -164,7 +224,7 @@ export const translations = {
         email: 'Correo electrónico',
         phone: 'Teléfono',
         service: 'Me interesa',
-        serviceOptions: ['Fix & Flip', 'Buy & Hold', 'Sociedad / Partnership', 'Otro'],
+        serviceOptions: ['Vender una Propiedad', 'Enviar una Propiedad', 'Fix & Flip', 'Buy & Hold', 'Otro'],
         message: 'Cuéntanos en qué podemos ayudarte',
         submit: 'Enviar Mensaje',
         sending: 'Enviando...',
@@ -193,10 +253,10 @@ export const translations = {
 
 // Update these with the client's real contact details before publishing.
 export const siteConfig = {
-  phone: '+1 (347) 734-2422',
-  phoneHref: 'tel:+13477342422',
-  whatsapp: '+1 (347) 734-2422',
-  whatsappHref: 'https://wa.me/13477342422',
+  phone: '+1 (347) 708-1967',
+  phoneHref: 'tel:+13477081967',
+  whatsapp: '+1 (347) 708-1967',
+  whatsappHref: 'https://wa.me/13477081967',
   email: 'e.c.goldenhomes@gmail.com',
   // Get a free access key at https://web3forms.com (no account required, just
   // enter the email that should receive submissions). It only grants

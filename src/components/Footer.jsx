@@ -31,6 +31,8 @@ export default function Footer() {
           <h4>{t.footer.ourStrategies}</h4>
           <a href="#fix-flip" onClick={scrollTo('fix-flip')}>{t.nav.fixFlip}</a>
           <a href="#buy-hold" onClick={scrollTo('buy-hold')}>{t.nav.buyHold}</a>
+          <a href="#sell-property" onClick={scrollTo('sell-property')}>{t.nav.sellProperty}</a>
+          <a href="#submit-property" onClick={scrollTo('submit-property')}>{t.nav.submitProperty}</a>
           <a href="#first-investment" onClick={scrollTo('first-investment')}>{t.nav.firstInvestment}</a>
         </div>
 
